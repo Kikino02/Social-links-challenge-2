@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 14px;
+}
+
+.container {
+  width: 300px;
+  background-color: hsl(0, 0%, 12%);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+}
+.container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.container h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.container h5 {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.container p {
+  color: hsl(0, 0%, 100%);
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.container ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.container ul li {
+  width: 100%;
+}
+.container ul li a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px;
+  background-color: hsl(0, 0%, 20%);
+  display: block;
+  border-radius: 8px;
+}
+.container ul li:hover a {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+.container ul li:active a {
+  background-color: hsl(75, 94%, 67%);
+  color: hsl(0, 0%, 12%);
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 400px;
+    padding: 40px;
+  }
+  .container img {
+    width: 100px;
+    height: 100px;
+  }
+}/*# sourceMappingURL=styles.css.map */
