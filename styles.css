@@ -45,6 +45,7 @@ p {
   color: hsl(75, 94%, 57%);
   font-weight: 600;
   margin-bottom: 25px;
+  font-size: 14px;
 }
 .container p {
   color: hsl(0, 0%, 100%);
